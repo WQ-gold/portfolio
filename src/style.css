@@ -89,7 +89,8 @@ footer {
   background-color: rgb(149, 125, 173, 0.3);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-view-project:hover {
   background-color: rgb(149, 125, 173, 0.3);
   border-color: var(--primary-color);
 }
