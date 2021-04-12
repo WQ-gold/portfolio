@@ -44,6 +44,8 @@ footer {
   text-align: center;
   margin-top: 50px;
   padding: 30px;
+  font-family: var(--secondary-font);
+  font-size: 12px;
 }
 
 footer i {
@@ -83,10 +85,19 @@ footer i {
   max-width: 430px;
 }
 
-.hero-text {
-  color: white;
+.subpages-main-title,
+.hero-text,
+.skill-icons-description {
   text-align: center;
   font-family: var(--secondary-font);
+}
+
+.subpages-main-title {
+  color: var(--primary-color);
+}
+
+.hero-text {
+  color: white;
 }
 
 .btn-primary {
@@ -102,6 +113,16 @@ footer i {
   text-align: center;
   font-family: var(--secondary-font);
   border-color: var(--primary-color);
+}
+
+.skill-box {
+  height: 170px;
+  text-align: center;
+  max-width: 450px;
+}
+
+.skill-icons {
+  height: 40px;
 }
 
 .footer-background {
@@ -141,6 +162,15 @@ footer i {
   .profile-pic-description {
     text-align: center;
     padding-top: 0 !important;
+  }
+
+  .my-skills-title {
+    margin-top: 0 !important;
+  }
+
+  .skill-box {
+    height: 350px;
+    width: 250px;
   }
 
   .btn {
