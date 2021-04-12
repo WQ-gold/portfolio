@@ -168,11 +168,6 @@ footer i {
     margin-top: 0 !important;
   }
 
-  .skill-box {
-    height: 350px;
-    width: 250px;
-  }
-
   .btn {
     font-size: 12px;
   }
@@ -184,5 +179,12 @@ footer i {
 
   .row {
     margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .skill-box {
+    height: 350px;
+    width: 250px;
   }
 }
