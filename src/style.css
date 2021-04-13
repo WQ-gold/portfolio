@@ -9,6 +9,8 @@ font-family: 'Poppins', sans-serif; */
 
 body {
   margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -186,5 +188,12 @@ footer i {
   .skill-box {
     height: 350px;
     width: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  footer {
+    position: relative !important;
+    margin-top: 50px;
   }
 }
