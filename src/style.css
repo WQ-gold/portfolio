@@ -83,7 +83,7 @@ footer i {
 }
 
 .project-picture-jpg {
-  max-height: 450px;
+  max-height: 349px;
   max-width: 430px;
 }
 
@@ -177,6 +177,10 @@ footer i {
   .project-information {
     text-align: center;
     padding-bottom: 0 !important;
+  }
+
+  .project-picture-jpg {
+    max-height: 250px;
   }
 
   .row {
