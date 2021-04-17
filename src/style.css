@@ -75,6 +75,13 @@ footer i {
   padding: 0px;
 }
 
+.profile-pic-about-page {
+  max-width: 300px;
+  border-radius: 10%;
+  padding: 0px;
+  margin-left: 250px;
+}
+
 .project-picture {
   background-color: rgb(149, 125, 173, 0.3);
   text-align: center;
@@ -164,6 +171,11 @@ footer i {
   .profile-pic-description {
     text-align: center;
     padding-top: 0 !important;
+  }
+
+  .profile-pic-about-page {
+    max-width: 200px;
+    margin: auto;
   }
 
   .my-skills-title {
