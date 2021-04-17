@@ -73,6 +73,7 @@ footer i {
   max-width: 200px;
   border-radius: 50%;
   padding: 0px;
+  margin-left: 300px;
 }
 
 .profile-pic-about-page {
@@ -175,6 +176,10 @@ footer i {
 
   .profile-pic-about-page {
     max-width: 200px;
+    margin: auto;
+  }
+
+  .profile-pic {
     margin: auto;
   }
 
