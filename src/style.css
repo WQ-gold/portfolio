@@ -59,14 +59,18 @@ footer i {
   margin: 10px 15px;
 }
 
+.navbar {
+  opacity: 0.8;
+}
+
 .hero-picture {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/pic/hero-picture-1.jpg);
   background-size: 100%;
   background-position: top;
-  height: 290px;
+  height: 350px;
   background-attachment: fixed;
-  margin: 0;
+  margin-bottom: 40px;
 }
 
 .profile-pic {
@@ -104,6 +108,7 @@ footer i {
 
 .subpages-main-title {
   color: var(--primary-color);
+  padding-top: 80px;
 }
 
 .hero-text {
@@ -169,6 +174,11 @@ footer i {
     margin: 8px 10px;
   }
 
+  .hero-picture {
+    height: 300px;
+    margin-bottom: 30px;
+  }
+
   .profile-pic-description {
     text-align: center;
     padding-top: 0 !important;
@@ -213,8 +223,29 @@ footer i {
 }
 
 @media (max-width: 350px) {
+  h1 {
+    font-size: 47px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
   footer {
     position: relative !important;
     margin-top: 50px;
+  }
+
+  .profile-pic {
+    height: auto;
+  }
+
+  .project-picture-jpg {
+    max-width: 250px;
+  }
+
+  .subpages-main-title {
+    font-size: 40px;
   }
 }
