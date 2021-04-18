@@ -205,6 +205,13 @@ footer i {
   }
 }
 
+@media (max-width: 1300mm) {
+  .profile-pic,
+  .profile-pic-about-page {
+    margin: auto;
+  }
+}
+
 @media (max-width: 720px) {
   .skill-box {
     height: 350px;
