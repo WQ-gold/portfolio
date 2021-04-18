@@ -70,17 +70,17 @@ footer i {
 }
 
 .profile-pic {
-  max-width: 200px;
+  height: 300px;
   border-radius: 50%;
   padding: 0px;
-  margin-left: 300px;
+  margin-left: auto;
 }
 
 .profile-pic-about-page {
   max-width: 300px;
   border-radius: 10%;
   padding: 0px;
-  margin-left: 250px;
+  margin-left: auto;
 }
 
 .project-picture {
@@ -202,13 +202,6 @@ footer i {
 
   .row {
     margin-top: 0 !important;
-  }
-}
-
-@media (max-width: 1300mm) {
-  .profile-pic,
-  .profile-pic-about-page {
-    margin: auto;
   }
 }
 
