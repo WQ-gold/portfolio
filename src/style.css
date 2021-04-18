@@ -145,6 +145,16 @@ footer i {
   background-color: rgb(149, 125, 173, 0.3);
 }
 
+.footer-link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
 .btn-primary:hover,
 .btn-view-project:hover {
   background-color: rgb(149, 125, 173, 0.3);
