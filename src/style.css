@@ -92,6 +92,7 @@ footer i {
   text-align: center;
   padding: 20px;
   max-height: 515px;
+  border-radius: 20px;
 }
 
 .project-picture-jpg {
